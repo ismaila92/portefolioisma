@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 1 - Configuration d'un Serveur</title>
+    <link rel="stylesheet" href="1format portefolio.css">
+</head>
+<body>
+    <header>
+        <h1>Projet 1 : Configuration d'un Serveur</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Dans le cadre de mon BTS SIO, j'ai réalisé un projet consistant à configurer un serveur destiné à héberger un site web et gérer une base de données. Ce projet m'a permis de mettre en pratique mes compétences en administration système et en réseau.</p>
+        </section>
+
+        <section>
+            <h2>Étapes de la configuration</h2>
+            <ol>
+                <li>
+                    <strong>Choix du système d'exploitation :</strong>
+                    <p>Pour ce projet, j'ai choisi d'utiliser <em>Ubuntu Server 22.04</em> en raison de sa stabilité et de sa large documentation.</p>
+                </li>
+                <li>
+                    <strong>Installation des services nécessaires :</strong>
+                    <p>J'ai installé les services suivants :
+                        <ul>
+                            <li><strong>Apache2 :</strong> pour servir les pages web.</li>
+                            <li><strong>MySQL :</strong> pour la gestion des bases de données.</li>
+                            <li><strong>PHP :</strong> pour l'exécution des scripts côté serveur.</li>
+                        </ul>
+                    </p>
+                </li>
+                <li>
+                    <strong>Configuration réseau :</strong>
+                    <p>J'ai attribué une adresse IP statique au serveur et configuré les règles du pare-feu avec <em>UFW</em> (Uncomplicated Firewall) pour autoriser uniquement les ports nécessaires (HTTP, HTTPS, SSH).</p>
+                </li>
+                <li>
+                    <strong>Déploiement d'un site web :</strong>
+                    <p>Un site web basique a été déployé pour tester le bon fonctionnement du serveur. J'ai utilisé un fichier PHP pour vérifier l'intégration avec MySQL.</p>
+                </li>
+                <li>
+                    <strong>Sauvegardes et monitoring :</strong>
+                    <p>J'ai configuré des sauvegardes automatiques avec <em>cron</em> et installé <em>Netdata</em> pour surveiller les performances du serveur en temps réel.</p>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Résultats</h2>
+            <p>À l'issue de ce projet, le serveur était pleinement opérationnel :
+                <ul>
+                    <li>Les pages web s'affichaient correctement via le navigateur.</li>
+                    <li>Les connexions à la base de données étaient fonctionnelles.</li>
+                    <li>Le serveur était sécurisé et monitoré.</li>
+                </ul>
+            </p>
+        </section>
+
+        <section>
+            <h2>Conclusion</h2>
+            <p>Ce projet m'a permis de renforcer mes compétences en administration système et en gestion de serveurs. J'ai appris à anticiper et résoudre des problèmes techniques, ainsi qu'à optimiser la sécurité et la performance d'un serveur. Ces compétences sont essentielles pour un futur administrateur système.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Ismaïla Cissokho</p>
+    </footer>
+</body>
+</html>
